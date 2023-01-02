@@ -41,3 +41,14 @@ $('a.smooth-scroll')
     }
   }
 });
+
+function myAge (){
+  const myAge = document.getElementById("myAge")
+  const bornYear = 2004;
+  var currentTime = new Date;
+  var currentYear = currentTime.getFullYear()
+
+  var age = bornYear - currentYear;
+  myAge = age
+
+}
